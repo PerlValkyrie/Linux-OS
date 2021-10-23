@@ -34,6 +34,8 @@ public class VariableTest {
 		
 		System.out.println("The boring number is: " + newNumber + ". ");
 		
+		System.out.println("Issues with the commit. Edit to code to test.");
+		
 		
 		
 	}
