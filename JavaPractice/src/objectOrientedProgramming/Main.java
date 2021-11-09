@@ -1,23 +1,23 @@
 package objectOrientedProgramming;
 
 public class Main {
-
+	
+	private int myInt = 25;
+	
 	public static void main(String[] args) {
 		
-		//Car myCar1 = new Car();
-		//Car myCar2 = new Car();
+		System.out.println("***Demonstration-1. A class demo with 2 objects ***");
+		Main obA = new Main();
+		Main obB = new Main();
+		System.out.println("obA.myInt = " + obA.myInt);
+		System.out.println("obA.myInt = " + obB.myInt);
 		
+	}
+	public class ClassEx1 {
 		
-		//System.out.println(myCar1.make);
-		//System.out.println(myCar1.model);
-		//System.out.println();
-		//System.out.println(myCar2.make);
-		//System.out.println(myCar2.model);
+		int myInt;
 		
-		//myCar.drive();
-		//myCar.brake();
-		
-		Human human = new Human();
+
 	}
 
 }
